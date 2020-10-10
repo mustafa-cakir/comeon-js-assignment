@@ -1,0 +1,37 @@
+.shimmer {
+    &-row {
+        margin-bottom: 25px;
+    }
+    &-circle {
+        border-radius: 100%;
+        min-height: 30px;
+        min-width: 30px;
+    }
+    &-square {
+        border-radius: 0;
+        min-height: 15px;
+        min-width: 15px;
+    }
+    &-line {
+        min-height: 2px;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    &-square,
+    &-circle,
+    &-line {
+        animation: shimmerAnimation 2s infinite linear;
+        background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+        background-size: 1000px 100%;
+    }
+}
+
+@keyframes shimmerAnimation {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}

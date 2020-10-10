@@ -1,0 +1,32 @@
+body {
+    background-color: #444;
+}
+.main.container {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 2em 2em 7em;
+    max-width: 990px;
+    position: relative;
+}
+
+.field {
+    margin: 10px;
+}
+
+.search {
+    float: right;
+}
+
+.ui.selection.list > .item {
+    text-align: left;
+}
+.ui.selection.list > .item:focus {
+    outline: none;
+}
+
+.ui.icon.input > i.icon.close {
+    cursor: pointer;
+}
+.ui.icon.input > i.icon.close:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}

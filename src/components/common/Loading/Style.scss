@@ -1,0 +1,40 @@
+.loading {
+    &.size {
+        &-fill {
+            background: rgba(255, 255, 255, 0.6);
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 100;
+        }
+        &-lazyload {
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(#c5d2e3, 0.5);
+        }
+    }
+    .loader {
+        border: 5px solid rgba(0, 0, 0, 0.3);
+        border-radius: 50%;
+        border-top: 5px solid rgba(0, 0, 0, 0.6);
+        width: 40px;
+        height: 40px;
+        animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+}

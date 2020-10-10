@@ -1,0 +1,16 @@
+.error {
+    &-box {
+        padding: 25px;
+        border-radius: 20px;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    &-title {
+        font-size: 18px;
+    }
+
+    &-subtite {
+        color: #999;
+    }
+}
