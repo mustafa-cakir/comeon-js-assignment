@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 import axios from 'axios';
-import { Link, useHistory, useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { useGamesState } from '../../../screens/Games/StateContext';
 import Alert from '../../common/Alert';
 import { API_GAMES } from '../../../core/Routes/Apis';

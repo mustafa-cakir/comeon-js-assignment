@@ -75,24 +75,10 @@ const Login = ({ auth, dispatchLogin }) => {
                 <form onSubmit={loginFormSubmitHandler} noValidate>
                     <div className="fields">
                         <div className="required field">
-                            <Input
-                                name="username"
-                                defaultValue="eric"
-                                placeholder="Username"
-                                required
-                                type="text"
-                                icon="user"
-                            />
+                            <Input name="username" placeholder="Username" required type="text" icon="user" />
                         </div>
                         <div className="required field">
-                            <Input
-                                name="password"
-                                defaultValue="dad"
-                                placeholder="Password"
-                                required
-                                type="password"
-                                icon="lock"
-                            />
+                            <Input name="password" placeholder="Password" required type="password" icon="lock" />
                         </div>
                         <div className="field">
                             <Input name="password" defaultValue="Login" type="submit" icon="right chevron" />
