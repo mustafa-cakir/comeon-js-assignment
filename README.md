@@ -14,7 +14,7 @@ yarn dev
 
 These commands will run;
 
--   Mock API (jsong-server) at `:3001`
+-   Mock API (json-server) at `:3001`
 -   React project at `:3000`
 
 on your localhost
